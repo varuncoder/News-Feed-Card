@@ -1,0 +1,92 @@
+
+.hero {
+  padding: 6.25rem 0px !important;
+  margin: 0px !important;
+}
+.cardbox {
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 0px !important;
+}
+
+/* ------------------------------- */
+/* Cardbox Heading
+---------------------------------- */
+.cardbox .cardbox-heading {
+  padding: 16px;
+  margin: 0;
+}
+.cardbox .float-right a:hover{
+  background: #f4f4f4 !important;	
+}
+
+/* ------------------------------- */
+/* Media Section
+---------------------------------- */
+.media {
+  display: flex;
+}
+.media img{
+  width: 52px !important;
+  height: 52px !important;
+  padding: 10px;
+  border-radius: 38px;
+} 
+.media-body {
+  -ms-flex: 1;
+  flex: 1;
+  padding: .4rem !important;
+}
+.media-body p{
+  font-family: 'Rokkitt', serif;	
+  font-weight: 500 !important;
+  font-size: 14px;
+  color: #88898a;
+}
+.media-body small span{
+  font-family: 'Rokkitt', serif;	
+  font-size: 12px;
+  color: #aaa;
+  margin-right: 10px;
+}
+.main_image{  
+  width: 20%;
+}
+
+/* ------------------------------- */
+/* Cardbox Item
+---------------------------------- */
+.cardbox .cardbox-item {
+    display: inline;
+    width: 100%;
+    height: auto;
+}
+.cardbox .cardbox-item img{
+    max-height: 278px;
+    max-width: 347px;
+}
+.cardbox-footer{
+  padding-top:15px; 
+  border-top: 1px solid #e1f1ff;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}	
+.fw {
+    width: 100% !important;
+	height: auto;
+}
+.subtagline{
+  font-size: small;
+  font-size: 13px;
+}
+.facebook{
+  display: inline-block;
+  margin: 0px;
+}
+.likes{
+  display: inline-block;
+  padding-left: 100px;
+}
